@@ -19,7 +19,7 @@ export default function StayTune() {
     return (
         <section className={`bg-[#CDE1BC] ${geistSans.className}`}>
             <div className="max-w-[1376px] mx-auto 2xl:py-[80px] xl:py-[80px] lg:py-[80px]
-            md:py-[80px] py-[64px] 2xl:px-0 xl:px-0 md:px-[24px] lg:px-[32px] px-[16px]">
+            md:py-[80px] py-[64px] 2xl:px-[32px] xl:px-[32px] md:px-[24px] lg:px-[32px] px-[16px]">
                 <div className="max-w-[768px] mx-auto">
                     <div className="text-center">
                         <h2 className={`

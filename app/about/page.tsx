@@ -30,7 +30,7 @@ export default function About() {
             <div className="max-w-[1376px] mx-auto 2xl:pt-[128px] 2xl:pb-[64px]
             xl:pt-[128px] xl:pb-[64px] lg:pt-[128px] lg:pb-[64px]
             md:pt-[128px] md:pb-[64px] pt-[80px] pb-[64px] px-[16px]
-            md:px-[24px] 2xl:px-0 xl:px-0 lg:px-[32px]">
+            md:px-[24px] 2xl:px-[32px] xl:px-[32px] lg:px-[32px]">
                 <div className="max-w-[343px] max-auto lg:max-w-[764px] md:max-w-[670px]">
                 <h1 className="text-[#111] 2xl:text-[64px] 2xl:leading-[76.8px] xl:text-[64px] xl:leading-[76.8px] lg:text-[64px] lg:leading-[76.8px]
                 md:text-[64px] md:leading-[76.8px] text-[48px] leading-[57.6px]
@@ -48,7 +48,7 @@ export default function About() {
 
         { /* Mystry touch */ }
         <section className={`bg-[#fff] ${geistSans.className}`}>
-            <div className="max-w-[1376px] mx-auto lg:pt-[80px] lg:px-[32px] xl:px-0 2xl:px-0
+            <div className="max-w-[1376px] mx-auto lg:pt-[80px] lg:px-[32px] xl:px-[32px] 2xl:px-[32px]
             md:pt-[80px] md:px-[24px] pt-[64px] px-[16px]">
                 <div className="flex flex-col lg:flex-row lg:gap-[64px] md:gap-[64px] gap-[32px] items-center
                 xl:flex-row xl:gap-[64px] 2xl:flex-row 2xl:gap-[64px]">
@@ -104,7 +104,7 @@ export default function About() {
         <section className={`bg-[#fff] ${geistSans.className}`}>
         <div className="max-w-[1376px] mx-auto pt-[48px] px-[16px]
         md:pt-[64px] md:px-[24px] lg:pt-[64px] lg:px-[32px]
-        xl:pt-[64px] 2xl:pt-[64px] xl:px-0 2xl:px-0">
+        xl:pt-[64px] 2xl:pt-[64px] xl:px-[32px] 2xl:px-[32px]">
             <div className="grid lg:grid-cols-3 lg:gap-[32px]
             xl:grid-cols-3 xl:gap-[32px] 2xl:grid-cols-3 2xl:gap-[32px]
             gap-[24px] grid-cols-1 md:grid-cols-2 md:gap-[32px]">
@@ -114,7 +114,7 @@ export default function About() {
                     alt="natural"
                     width={32}
                     height={32}
-                    className="mx-auto object-fit w-[28px] h-[28px] md:w-[32px] md:w-[32px] lg:w-[32px] lg:w-[32px]
+                    className="mx-auto object-fit w-[28px] h-[28px] md:w-[32px] md:h-[32px] lg:w-[32px] lg:w-[32px]
                     mb-[16px] md:mb-[20px] lg:mb-[20px]"
                     />
                     <h3 className="mb-[20px] lg:mb-[24px] md:[24px] font-medium
@@ -130,11 +130,11 @@ export default function About() {
                 </div>
                 <div className="text-center">
                     <Image
-                    src="/assests/about/naturalpure.svg"
-                    alt="natural"
+                    src="/assests/about/handcraft.svg"
+                    alt="Handcrafted"
                     width={32}
                     height={32}
-                    className="mx-auto object-fit w-[28px] h-[28px] md:w-[32px] md:w-[32px] lg:w-[32px] lg:w-[32px]
+                    className="mx-auto object-fit w-[28px] h-[28px] md:w-[32px] md:h-[32px] lg:w-[32px] lg:w-[32px]
                     mb-[16px] md:mb-[20px] lg:mb-[20px]"
                     />
                     <h3 className="mb-[20px] lg:mb-[24px] md:[24px] font-medium
@@ -150,11 +150,11 @@ export default function About() {
                 </div>
                 <div className="text-center md:col-span-2 md:justify-self-center lg:col-span-1 lg:justify-self-auto">
                     <Image
-                    src="/assests/about/naturalpure.svg"
-                    alt="natural"
+                    src="/assests/about/affortable.svg"
+                    alt="Affordable"
                     width={32}
                     height={32}
-                    className="mx-auto object-fit w-[28px] h-[28px] md:w-[32px] md:w-[32px] lg:w-[32px] lg:w-[32px]
+                    className="mx-auto object-fit w-[28px] h-[28px] md:w-[32px] md:h-[32px] lg:w-[32px] lg:w-[32px]
                     mb-[16px] md:mb-[20px] lg:mb-[20px]"
                     />
                     <h3 className="mb-[20px] lg:mb-[24px] md:[24px] font-medium
@@ -164,8 +164,7 @@ export default function About() {
                     </h3>
                     <p className="text-[#666] font-normal text-[16px] leading-[24px]
                     md:text-[18px] md:leading-[27px] lg:text-[18px] lg:leading-[27px] md:max-w-[344px]">
-                        We make premium products accessible without  {" "}
-                        <br className="hidden xl:block" /> compromising on quality.
+                        We make premium products accessible without compromising on quality.
                     </p>
                 </div>
             </div>
@@ -175,13 +174,13 @@ export default function About() {
         </section>
 
         <section className={`bg-[#fff] ${geistSans.className}`}>
-            <div className="max-w-[1376px] mx-auto pb-[64px] pt-[48px] px-[16px] xl:px-0 2xl:px-0
+            <div className="max-w-[1376px] mx-auto pb-[64px] pt-[48px] px-[16px] xl:px-[32px] 2xl:px-[32px]
             lg:px-[32px] md:px-[24px] lg:pt-[64px] lg:pb-[80px]
             xl:pt-[64px] xl:pb-[80px] 2xl:pt-[64px] 2xl:pb-[80px]
             md:pt-[64px] md:pb-[80px]">
                 <div className="flex flex-col gap-[24px]
                 lg:flex-row lg:gap-[32px]
-                md:flex-row md:gap-[32px]">
+                md:flex-col md:gap-[32px]">
                     <div className="philosophy w-full lg:w-1/2 p-[24px] lg:p-[32px] md:p-[32px]
                     border-1 rounded-[1px] border-[#DBDBDB] bg-[#fff]">
                         <h3 className={`mb-[20px] lg:mb-[24px] md:mb-[24px]
@@ -209,8 +208,7 @@ export default function About() {
                         </h3>
                     <p className="text-[#666] font-normal text-[16px] leading-[24px]
                     md:text-[18px] md:leading-[27px] lg:text-[18px] lg:leading-[27px]">
-                       With every cup of tea, every flicker of candlelight, {" "}
-                        <br className="hidden xl:block" />and every soothing soap, we bring you a little piece of nature’s magic—crafted for moments of calm, comfort, and joy.
+                       With every cup of tea, every flicker of candlelight, and every soothing soap, we bring you a little piece of nature’s magic—crafted for moments of calm, comfort, and joy.
                         
                     </p>
                     </div>
